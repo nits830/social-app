@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Neucha&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 .input{
     display: flex;
     width: 75%;
@@ -12,6 +12,8 @@
     height: 75px;
     margin-left: 300px;
     margin-top: 20px;
+    border-radius: 50x;
+    box-shadow: 0 0 10px black;
     
 }
 
@@ -22,3 +24,39 @@
     box-shadow: 0 0 5px solid black;
     margin-left: 20px;
 }
+
+.post-window{
+    width:50%;
+    height: 100vh;
+    margin-top: 100px;
+
+}
+
+.single-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border:10px rgb(11, 0, 0);
+    gap:5px
+}
+
+.single-feed{
+    font-family:'Ubuntu';
+    font-weight: bolder;
+    
+    
+}
+
+.name{
+    font-weight: bolder;
+    color: rgb(1, 105, 166);
+    margin-left: 20px;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
