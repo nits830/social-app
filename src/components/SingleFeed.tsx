@@ -1,6 +1,7 @@
 import React from 'react'
 import { Feed } from '../models';
 import "./styles.css"
+import Like from './Like';
 
 interface Props{
     feed:Feed;
@@ -17,7 +18,9 @@ const SingleFeed:React.FC<Props> = ({feed, setFeeds}) => {
         </div>
         
         <p className='single-feed'>{feed.feed}</p>
+        <Like/>
         <hr/> 
+        
     </div>
   )
 }

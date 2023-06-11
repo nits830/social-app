@@ -60,3 +60,19 @@ img{
     height: 40px;
 }
 
+.like{
+    color: rgb(5, 61, 232);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.like:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.like-btn{
+    display: flex;
+}
+
